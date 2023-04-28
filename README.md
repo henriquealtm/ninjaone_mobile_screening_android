@@ -2,6 +2,11 @@
 
 1. Please download this repo and get the app up and running on your machine/IDE. Below is a list of bugs/tasks to complete as part of this evaluation.
 
+Here is the link to the API source/documentation.
+https://gadhagod.github.io/Hyrule-Compendium-API
+
+In the /screenshots folder you will find what the UI should look like. Please reference them when correcting the issues below.
+
 2. Things to fix/add:
 
 - The app is crashing on launch for 2 reasons, please determine why it’s crashing and make the corrections.
