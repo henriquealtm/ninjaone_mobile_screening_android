@@ -36,6 +36,10 @@ android {
     viewBinding {
         android.buildFeatures.viewBinding = true
         android.buildFeatures.dataBinding = true
+        android.buildFeatures.compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.4.7"
     }
 
 }
@@ -54,6 +58,13 @@ dependencies {
     implementation(AppDependencies.retrofit)
     implementation(AppDependencies.gson)
     implementation(AppDependencies.cardView)
+
+    implementation(AppDependencies.composeActivity)
+    implementation(AppDependencies.composeMaterial)
+    implementation(AppDependencies.constraintMaterial)
+    implementation(AppDependencies.material3)
+    implementation(AppDependencies.viewModelKtx)
+    implementation(AppDependencies.viewModelCompose)
 
     debugImplementation(AppDependencies.fragmentTesting)
 

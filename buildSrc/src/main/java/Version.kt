@@ -1,8 +1,16 @@
 //version constants for the Kotlin DSL dependencies
 object Versions {
     // App level
-    const val gradle = "7.2.1"
-    const val kotlin = "1.6.21"
+    const val gradle = "7.3.1"
+    const val kotlin = "1.8.21"
+
+    // Compose
+    const val composeActivity = "1.7.2"
+    const val composeMaterial = "1.4.3"
+    const val constraintMaterial = "1.1.0-alpha09"
+    const val material3 = "1.1.1"
+    const val viewModelKtx = "2.6.1"
+    const val viewModelCompose = "2.6.1"
 
     // Core
     const val coreKtx = "1.7.0"

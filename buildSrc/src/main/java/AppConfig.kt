@@ -2,9 +2,9 @@ import org.gradle.api.NamedDomainObjectContainer
 
 //app level config constants
 object AppConfig {
-    const val compileSdk = 32
-    const val minSdk = 21
-    const val targetSdk = 32
+    const val compileSdk = 34
+    const val minSdk = 26
+    const val targetSdk = 34
     const val versionCode = 1
     const val versionName = "1.0.0"
 

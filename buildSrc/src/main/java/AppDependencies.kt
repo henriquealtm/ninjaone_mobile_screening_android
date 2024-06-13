@@ -10,6 +10,20 @@ object AppDependencies {
     // Std lib
     private const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
 
+    // Compose
+    const val composeActivity =
+        "androidx.activity:activity-compose:${Versions.composeActivity}"
+    const val composeMaterial =
+        "androidx.compose.material:material:${Versions.composeMaterial}"
+    const val constraintMaterial =
+        "androidx.constraintlayout:constraintlayout-compose:${Versions.constraintMaterial}"
+    const val material3 =
+        "androidx.compose.material3:material3:${Versions.material3}"
+    const val viewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.viewModelKtx}"
+    const val viewModelCompose =
+        "androidx.lifecycle:lifecycle-viewmodel-compose:${Versions.viewModelCompose}"
+
+
     // Core
     private const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
     private const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"

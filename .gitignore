@@ -2,6 +2,7 @@
 .gradle
 /buildSrc/build
 /local.properties
+.idea
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml

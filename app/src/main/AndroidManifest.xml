@@ -16,6 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ZeldaApp"
         tools:targetApi="31">
+
+        <activity
+            android:name=".customtask.CustomTaskActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".errorsandvalidation.ErrorsAndValidationActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
